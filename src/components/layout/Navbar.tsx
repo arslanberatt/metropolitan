@@ -24,6 +24,9 @@ export default function Navbar() {
   useEffect(() => {
     const nav = navRef.current;
     if (!nav) return;
+
+    gsap.set(nav, { yPercent: 0 });
+
     let lastShown = true;
     const show = () => { if (lastShown) return; lastShown = true; gsap.to(nav, { yPercent: 0, duration: 0.3, ease: "power2.out" }); };
     const hide = () => { if (!lastShown) return; lastShown = false; gsap.to(nav, { yPercent: -100, duration: 0.4, ease: "power2.inOut" }); };
