@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useLayoutEffect } from "react";
 import { Outlet, useLocation } from "react-router-dom";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
@@ -14,13 +14,16 @@ export default function RootLayout() {
     initLenis();
   }, []);
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     const lenis = getLenis();
     if (lenis) {
       lenis.scrollTo(0, { immediate: true });
     } else {
       window.scrollTo(0, 0);
     }
+  }, [location.pathname]);
+
+  useEffect(() => {
     let raf2 = 0;
     const raf1 = requestAnimationFrame(() => {
       raf2 = requestAnimationFrame(() => ScrollTrigger.refresh());
