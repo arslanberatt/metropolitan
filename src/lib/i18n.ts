@@ -3,7 +3,7 @@ import { initReactI18next } from "react-i18next";
 import en from "@/data/locales/en.json";
 import tr from "@/data/locales/tr.json";
 
-const STORAGE_KEY = "atria-lang";
+const STORAGE_KEY = "metropolitan-lang";
 function detectLang(): "en" | "tr" {
   if (typeof window === "undefined") return "en";
   const stored = localStorage.getItem(STORAGE_KEY);

@@ -67,7 +67,7 @@ export default function PageTransition() {
           <style>{`@keyframes ptZoom{from{opacity:0;transform:scale(1.1)}to{opacity:1;transform:scale(1)}}`}</style>
         </div>
       ) : visible ? (
-        <span className="font-mono-label text-bone/40 tracking-widest text-xs">ATRIA</span>
+        <span className="font-mono-label text-bone/40 tracking-widest text-xs">METROPOLITAN</span>
       ) : null}
     </div>
   );

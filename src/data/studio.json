@@ -1,11 +1,11 @@
 {
-  "name":"ATRIA Architects","founded":2009,
+  "name":"Metropolitan Architects","founded":2009,
   "tagline":{"en":"Spaces that hold time.","tr":"Zamanı tutan mekânlar."},
   "addresses":[
     {"city":"Istanbul","lines":["Hamalbaşı Caddesi 27/4","Beyoğlu, 34435 Istanbul","Türkiye"],"phone":"+90 212 244 11 09","mapUrl":"https://maps.google.com/?q=Hamalbasi+Caddesi+Beyoglu"},
     {"city":"Milano","lines":["Via Solferino 14","20121 Milano","Italia"],"phone":"+39 02 8718 2240","mapUrl":"https://maps.google.com/?q=Via+Solferino+14+Milano"}
   ],
-  "email":"studio@atria.studio",
+  "email":"studio@metropolitan.studio",
   "hours":{"en":"Mon – Fri · 09:30 – 18:30","tr":"Pzt – Cum · 09:30 – 18:30"},
-  "socials":[{"label":"Instagram","url":"https://instagram.com/atria.studio"},{"label":"Are.na","url":"https://are.na/atria"},{"label":"Journal","url":"#"}]
+  "socials":[{"label":"Instagram","url":"https://instagram.com/metropolitan.studio"},{"label":"Are.na","url":"https://are.na/metropolitan"},{"label":"Journal","url":"#"}]
 }
