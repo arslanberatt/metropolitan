@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 import ScrollProgress from "./ScrollProgress";
 import PageTransition from "./PageTransition";
-import { initLenis } from "@/lib/lenis";
+import { initLenis, getLenis } from "@/lib/lenis";
 import { ScrollTrigger } from "@/lib/gsap";
 
 export default function RootLayout() {
@@ -15,7 +15,12 @@ export default function RootLayout() {
   }, []);
 
   useEffect(() => {
-    window.scrollTo(0, 0);
+    const lenis = getLenis();
+    if (lenis) {
+      lenis.scrollTo(0, { immediate: true });
+    } else {
+      window.scrollTo(0, 0);
+    }
     let raf2 = 0;
     const raf1 = requestAnimationFrame(() => {
       raf2 = requestAnimationFrame(() => ScrollTrigger.refresh());
