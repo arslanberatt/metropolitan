@@ -1,0 +1,67 @@
+[
+  {
+    "number": "01",
+    "title": { "en": "Architecture", "tr": "Mimarlık" },
+    "description": {
+      "en": "Ground-up buildings, from a single house to a public institution. We work slowly, draw constantly, and refuse to begin design before the site has been listened to.",
+      "tr": "Tek bir evden kamu kurumuna kadar sıfırdan yapılar. Yavaş çalışıyor, sürekli çiziyor ve site dinlenmeden tasarıma başlamayı reddediyoruz."
+    },
+    "deliverables": {
+      "en": ["Concept design & site analysis", "Permit & technical drawings", "Construction documentation", "On-site supervision"],
+      "tr": ["Konsept tasarım ve saha analizi", "Ruhsat ve teknik çizimler", "Uygulama projeleri", "Şantiye denetimi"]
+    },
+    "image": "/1.png"
+  },
+  {
+    "number": "02",
+    "title": { "en": "Interior Architecture", "tr": "İç Mimarlık" },
+    "description": {
+      "en": "Joinery, light, surface. We design interiors as architecture — every shelf, every threshold, drawn at 1:1.",
+      "tr": "Marangozluk, ışık, yüzey. İç mekanları mimari olarak tasarlıyoruz — her raf, her eşik, 1:1 ölçekte çiziliyor."
+    },
+    "deliverables": {
+      "en": ["Spatial design", "Bespoke joinery", "Lighting design", "Material & finish specification"],
+      "tr": ["Mekan tasarımı", "Özel marangozluk", "Aydınlatma tasarımı", "Malzeme ve yüzey şartnameleri"]
+    },
+    "image": "/2.png"
+  },
+  {
+    "number": "03",
+    "title": { "en": "Adaptive Reuse", "tr": "Yeniden Kullanım" },
+    "description": {
+      "en": "Old buildings, new lives. We treat existing fabric as a found instrument and tune it carefully — preserving what is true, removing what was added in haste.",
+      "tr": "Eski yapılar, yeni hayatlar. Mevcut dokuyu bulunmuş bir enstrüman olarak ele alıyor ve dikkatle akort ediyoruz — gerçek olanı koruyup aceleyle eklenenleri çıkarıyoruz."
+    },
+    "deliverables": {
+      "en": ["Heritage assessment", "Conservation strategy", "New-build integration", "Authority liaison"],
+      "tr": ["Miras değerlendirmesi", "Koruma stratejisi", "Yeni yapı entegrasyonu", "Kurum koordinasyonu"]
+    },
+    "image": "/3.png"
+  },
+  {
+    "number": "04",
+    "title": { "en": "Landscape", "tr": "Peyzaj" },
+    "description": {
+      "en": "Gardens, courtyards, terraces. We work with native planting, dry-stone construction, and the slow craft of soil.",
+      "tr": "Bahçeler, avlular, teraslar. Yerel bitki örtüsü, kuru taş inşaat ve toprağın yavaş zanaatıyla çalışıyoruz."
+    },
+    "deliverables": {
+      "en": ["Master plan", "Planting design", "Hardscape detailing", "Ecology & water strategy"],
+      "tr": ["Master plan", "Bitkilendirme tasarımı", "Sert peyzaj detayları", "Ekoloji ve su stratejisi"]
+    },
+    "image": "/4.png"
+  },
+  {
+    "number": "05",
+    "title": { "en": "Consultancy", "tr": "Danışmanlık" },
+    "description": {
+      "en": "Feasibility, briefing, and the careful work of asking the right question before any line is drawn.",
+      "tr": "Fizibilite, brifing ve ilk çizgi çizilmeden önce doğru soruyu sormanın özenli işi."
+    },
+    "deliverables": {
+      "en": ["Site & zoning analysis", "Brief development", "Feasibility studies", "Client advisory"],
+      "tr": ["Saha ve imar analizi", "Brif geliştirme", "Fizibilite etütleri", "Müşteri danışmanlığı"]
+    },
+    "image": "/5.png"
+  }
+]

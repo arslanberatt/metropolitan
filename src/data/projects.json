@@ -1,0 +1,239 @@
+[
+  {
+    "slug": "kadikoy-house",
+    "title": { "en": "Kadıköy House", "tr": "Kadıköy Evi" },
+    "category": "Residential",
+    "year": 2024,
+    "location": { "en": "Kadıköy, Istanbul", "tr": "Kadıköy, İstanbul" },
+    "area": "320 m²",
+    "client": "Private",
+    "photographer": "Cemal Emden",
+    "description": {
+      "en": "A narrow inner-city plot reimagined as a stacked sequence of courtyards. Three storeys of board-formed concrete are pierced by a single oak stair that climbs through a vertical light well, drawing the Marmara breeze through the house from morning to dusk.",
+      "tr": "Dar bir şehir içi parsel, üst üste yığılmış avlular dizisi olarak yeniden hayal edildi. Beton üç kat, dikey bir ışık kuyusundan tırmanan tek bir meşe merdivenle delinerek Marmara meltemini sabahtan akşama kadar evin içinden geçiriyor."
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=1600&q=80&auto=format",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1600&q=80&auto=format",
+      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1600&q=80&auto=format",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1600&q=80&auto=format"
+    ],
+    "featured": true,
+    "bentoSize": "2x2"
+  },
+  {
+    "slug": "brera-atelier",
+    "title": { "en": "Brera Atelier", "tr": "Brera Atölyesi" },
+    "category": "Adaptive Reuse",
+    "year": 2024,
+    "location": { "en": "Milano Brera", "tr": "Milano Brera" },
+    "area": "180 m²",
+    "client": "Galleria Linea",
+    "photographer": "Filippo Romano",
+    "description": {
+      "en": "A 19th-century print workshop returned to public life as an exhibition space. The original cast-iron columns were preserved, lime-washed walls were left raw, and a single pivoting steel door turns the gallery inside out on opening nights.",
+      "tr": "19. yüzyıldan kalma bir baskı atölyesi, bir sergi alanı olarak kamusal hayata döndü. Orijinal dökme demir kolonlar korundu, kireçle yıkanmış duvarlar ham bırakıldı ve tek bir döner çelik kapı galeriyi açılış gecelerinde tersyüz ediyor."
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=1600&q=80&auto=format",
+      "https://images.unsplash.com/photo-1600573472556-e636c2acda88?w=1600&q=80&auto=format",
+      "https://images.unsplash.com/photo-1600566753086-00f18fe6ba91?w=1600&q=80&auto=format"
+    ],
+    "featured": true,
+    "bentoSize": "2x1"
+  },
+  {
+    "slug": "bebek-pavilion",
+    "title": { "en": "Bebek Pavilion", "tr": "Bebek Oteli" },
+    "category": "Cultural",
+    "year": 2023,
+    "location": { "en": "Bebek, Istanbul", "tr": "Bebek, İstanbul" },
+    "area": "640 m²",
+    "client": "Bosphorus Foundation",
+    "photographer": "Iwan Baan",
+    "description": {
+      "en": "A reading pavilion suspended over the Bosphorus shoreline. A single folded plate of weathering steel forms both roof and balustrade, framing the Asian shore as a slow horizontal painting.",
+      "tr": "Boğaz kıyısında asılı duran bir okuma pavyonu. Tek bir katlanmış paslanmaz çelik levha hem çatıyı hem de korkuluğu oluşturuyor, Anadolu yakasını yavaş bir yatay resim olarak çerçeveliyor."
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600&q=80&auto=format",
+      "https://images.unsplash.com/photo-1554435493-93422e8220c8?w=1600&q=80&auto=format",
+      "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=1600&q=80&auto=format"
+    ],
+    "featured": true,
+    "bentoSize": "1x2"
+  },
+  {
+    "slug": "como-villa",
+    "title": { "en": "Villa sul Lago", "tr": "Göl Kıyısı Villası" },
+    "category": "Residential",
+    "year": 2023,
+    "location": { "en": "Como, Italy", "tr": "Como, İtalya" },
+    "area": "880 m²",
+    "client": "Private",
+    "photographer": "Filippo Romano",
+    "description": {
+      "en": "Five stone volumes terraced into the lake's western flank. Each room opens onto a single tree, a single view, a single hour of light.",
+      "tr": "Gölün batı yamacına teraslanmış beş taş hacim. Her oda tek bir ağaca, tek bir manzaraya, tek bir ışık saatine açılıyor."
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1600&q=80&auto=format",
+      "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?w=1600&q=80&auto=format"
+    ],
+    "featured": true,
+    "bentoSize": "1x1"
+  },
+  {
+    "slug": "arnavutkoy-warehouse",
+    "title": { "en": "Arnavutköy Warehouse", "tr": "Arnavutköy Deposu" },
+    "category": "Adaptive Reuse",
+    "year": 2022,
+    "location": { "en": "Arnavutköy, Istanbul", "tr": "Arnavutköy, İstanbul" },
+    "area": "1,200 m²",
+    "client": "Studio Lava",
+    "photographer": "Cemal Emden",
+    "description": {
+      "en": "A timber-framed customs warehouse converted into a shared workshop for ten craftspeople. The original trusses were sandblasted and left exposed; new mezzanines slip between them like drawers.",
+      "tr": "Ahşap iskeletli bir gümrük deposu, on zanaatkâr için ortak bir atölyeye dönüştürüldü. Orijinal makaslar kumlanarak açıkta bırakıldı; yeni asma katlar aralarına çekmece gibi yerleşiyor."
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?w=1600&q=80&auto=format",
+      "https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?w=1600&q=80&auto=format"
+    ],
+    "featured": true,
+    "bentoSize": "2x1"
+  },
+  {
+    "slug": "cihangir-apartment",
+    "title": { "en": "Cihangir Apartment", "tr": "Cihangir Dairesi" },
+    "category": "Residential",
+    "year": 2024,
+    "location": { "en": "Cihangir, Istanbul", "tr": "Cihangir, İstanbul" },
+    "area": "140 m²",
+    "client": "Private",
+    "photographer": "Cemal Emden",
+    "description": {
+      "en": "A single 1930s apartment stripped to its plaster bones and re-clad in lime, oak, and unlacquered brass. The kitchen is a six-metre table; the bedroom is a curtain.",
+      "tr": "1930'lardan kalma tek bir daire, sıva iskeletine kadar soyularak kireç, meşe ve cilasız pirinçle yeniden kaplandı. Mutfak altı metrelik bir masa; yatak odası bir perde."
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1600&q=80&auto=format"
+    ],
+    "featured": true,
+    "bentoSize": "1x1"
+  },
+  {
+    "slug": "sariyer-pavilion",
+    "title": { "en": "Sarıyer Garden Pavilion", "tr": "Sarıyer Bahçe Pavyonu" },
+    "category": "Landscape",
+    "year": 2023,
+    "location": { "en": "Sarıyer, Istanbul", "tr": "Sarıyer, İstanbul" },
+    "area": "90 m²",
+    "client": "Private",
+    "photographer": "Iwan Baan",
+    "description": {
+      "en": "A summer garden room of cedar and limestone, set under a single Judas tree. The roof tilts west to catch the last hour of sun on the dining table.",
+      "tr": "Sedir ve kireçtaşından bir yaz bahçe odası, tek bir erguvan ağacının altında. Çatı, akşam güneşinin son saatini yemek masasına düşürmek için batıya eğiliyor."
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1600&q=80&auto=format"
+    ],
+    "featured": false,
+    "bentoSize": "1x1"
+  },
+  {
+    "slug": "beyoglu-bookshop",
+    "title": { "en": "Beyoğlu Bookshop", "tr": "Beyoğlu Kitabevi" },
+    "category": "Commercial",
+    "year": 2022,
+    "location": { "en": "Beyoğlu, Istanbul", "tr": "Beyoğlu, İstanbul" },
+    "area": "210 m²",
+    "client": "Pera Books",
+    "photographer": "Cemal Emden",
+    "description": {
+      "en": "A bookshop and reading room behind a 19th-century arcade. Plywood shelving rises in a single continuous loop, doubling as bench, wall, and stair.",
+      "tr": "19. yüzyıldan kalma bir pasajın arkasında bir kitabevi ve okuma salonu. Kontrplak rafları tek bir sürekli halka olarak yükseliyor; bank, duvar ve merdiven olarak ikiye katlanıyor."
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=1600&q=80&auto=format"
+    ],
+    "featured": false,
+    "bentoSize": "1x1"
+  },
+  {
+    "slug": "maggiore-boathouse",
+    "title": { "en": "Lago Maggiore Boathouse", "tr": "Lago Maggiore Kayıkhanesi" },
+    "category": "Residential",
+    "year": 2021,
+    "location": { "en": "Lago Maggiore, Italy", "tr": "Lago Maggiore, İtalya" },
+    "area": "60 m²",
+    "client": "Private",
+    "photographer": "Filippo Romano",
+    "description": {
+      "en": "A single chestnut-clad room balanced on four stone piers above the lake. The floor lifts on a winch to release a wooden rowing boat.",
+      "tr": "Gölün üzerinde dört taş ayağa dengelenmiş, kestane ile kaplı tek bir oda. Zemin, bir vinçle kalkarak ahşap bir kayığı serbest bırakıyor."
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1604014237800-1c9102c219da?w=1600&q=80&auto=format"
+    ],
+    "featured": false,
+    "bentoSize": "2x1"
+  },
+  {
+    "slug": "milano-loft",
+    "title": { "en": "Milano Loft", "tr": "Milano Çatı Katı" },
+    "category": "Residential",
+    "year": 2022,
+    "location": { "en": "Milano Isola", "tr": "Milano Isola" },
+    "area": "240 m²",
+    "client": "Private",
+    "photographer": "Filippo Romano",
+    "description": {
+      "en": "A former textile workshop opened to the rafters. A pale terrazzo floor reflects the north light; the kitchen retreats behind a sliding linen wall.",
+      "tr": "Eski bir tekstil atölyesi tavan kirişlerine kadar açıldı. Soluk teraco zemin kuzey ışığını yansıtıyor; mutfak sürgülü bir keten duvarın arkasına çekiliyor."
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1600566753051-6057c1f31d4d?w=1600&q=80&auto=format"
+    ],
+    "featured": false,
+    "bentoSize": "1x1"
+  },
+  {
+    "slug": "kadikoy-school",
+    "title": { "en": "Kadıköy Primary School", "tr": "Kadıköy İlkokulu" },
+    "category": "Cultural",
+    "year": 2021,
+    "location": { "en": "Kadıköy, Istanbul", "tr": "Kadıköy, İstanbul" },
+    "area": "2,400 m²",
+    "client": "Municipality of Kadıköy",
+    "photographer": "Iwan Baan",
+    "description": {
+      "en": "Twelve classrooms gathered around a central courtyard planted with a single plane tree. The corridors are wide enough to be classrooms themselves.",
+      "tr": "Tek bir çınar ağacı dikilmiş merkezi bir avlu etrafında toplanmış on iki sınıf. Koridorlar başlı başına birer sınıf olacak kadar geniş."
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1600&q=80&auto=format"
+    ],
+    "featured": false,
+    "bentoSize": "2x1"
+  },
+  {
+    "slug": "bosphorus-bath",
+    "title": { "en": "Bosphorus Bath House", "tr": "Boğaz Hamamı" },
+    "category": "Cultural",
+    "year": 2020,
+    "location": { "en": "Sarıyer, Istanbul", "tr": "Sarıyer, İstanbul" },
+    "area": "560 m²",
+    "client": "Private",
+    "photographer": "Cemal Emden",
+    "description": {
+      "en": "A small public bath cut into a cliff. Three vaulted rooms — cold, warm, hot — descend toward the sea, ending in an open-air pool at the water's edge.",
+      "tr": "Bir uçuruma oyulmuş küçük bir umumi hamam. Üç tonozlu oda — soğuk, ılık, sıcak — denize doğru iniyor ve suyun kıyısında açık havada bir havuzla son buluyor."
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1564540583246-934409427776?w=1600&q=80&auto=format"
+    ],
+    "featured": false,
+    "bentoSize": "1x1"
+  }
+]

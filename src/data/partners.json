@@ -1,0 +1,143 @@
+[
+  {
+    "name": "Taikos Engineering Consultancy",
+    "nameLocal": "Taikos Mühendislik Danışmanlık",
+    "category": "Structural Engineering",
+    "specialty": { "en": "Structural & Civil Engineering", "tr": "Yapı & İnşaat Mühendisliği" },
+    "since": 2011,
+    "region": "Gulf",
+    "headOffice": {
+      "label": "Head Office",
+      "lines": ["P.O. Box 13565", "Al Ain, Altawba Street", "Abu Dhabi", "UAE"],
+      "tel": "+971 3 766 3005",
+      "fax": "+971 2 666 5173",
+      "email": "info@taikosec.com"
+    },
+    "branchOffice": {
+      "label": "Branch Office",
+      "lines": ["P.O. Box 13551", "Abu Dhabi City, Almoror Street", "Abu Dhabi", "UAE"],
+      "tel": "+971 2 666 5170",
+      "fax": "+971 3 766 0305",
+      "email": "info@taikosec.com",
+      "website": "www.taikosec.com"
+    }
+  },
+  {
+    "name": "Bollinger + Grohmann",
+    "nameLocal": "Bollinger + Grohmann GmbH",
+    "category": "Structural Engineering",
+    "specialty": { "en": "Structural & Facade Engineering", "tr": "Taşıyıcı Sistem & Cephe Mühendisliği" },
+    "since": 2014,
+    "region": "Europe",
+    "headOffice": {
+      "label": "Headquarters",
+      "lines": ["Friedenstraße 23", "60311 Frankfurt am Main", "Germany"],
+      "tel": "+49 69 7104 1450",
+      "email": "frankfurt@bollinger-grohmann.com"
+    },
+    "branchOffice": {
+      "label": "Vienna Office",
+      "lines": ["Margaretenstraße 70/4/1", "1050 Vienna", "Austria"],
+      "tel": "+43 1 997 1780",
+      "website": "www.bollinger-grohmann.com"
+    }
+  },
+  {
+    "name": "Bartenbach GmbH",
+    "nameLocal": "Bartenbach GmbH",
+    "category": "Lighting Design",
+    "specialty": { "en": "Architectural Lighting Consultancy", "tr": "Mimari Aydınlatma Danışmanlığı" },
+    "since": 2016,
+    "region": "Europe",
+    "headOffice": {
+      "label": "Headquarters",
+      "lines": ["Rinner Straße 14", "6071 Aldrans · Innsbruck", "Austria"],
+      "tel": "+43 512 3338 00",
+      "fax": "+43 512 3338 50",
+      "email": "office@bartenbach.com",
+      "website": "www.bartenbach.com"
+    }
+  },
+  {
+    "name": "Arup Group",
+    "nameLocal": "Arup Mühendislik",
+    "category": "MEP Engineering",
+    "specialty": { "en": "MEP & Sustainability Consulting", "tr": "MEP & Sürdürülebilirlik Danışmanlığı" },
+    "since": 2013,
+    "region": "Global",
+    "headOffice": {
+      "label": "London HQ",
+      "lines": ["8 Fitzroy Street", "London W1T 4BJ", "United Kingdom"],
+      "tel": "+44 20 7636 1531",
+      "email": "london@arup.com"
+    },
+    "branchOffice": {
+      "label": "Istanbul Office",
+      "lines": ["Büyükdere Caddesi 201, Levent", "34394 Istanbul", "Türkiye"],
+      "tel": "+90 212 371 2300",
+      "website": "www.arup.com"
+    }
+  },
+  {
+    "name": "IKD Mühendislik",
+    "nameLocal": "IKD Mühendislik A.Ş.",
+    "category": "Geotechnical",
+    "specialty": { "en": "Geotechnical & Foundation Engineering", "tr": "Zemin & Temel Mühendisliği" },
+    "since": 2009,
+    "region": "Turkey",
+    "headOffice": {
+      "label": "Istanbul Office",
+      "lines": ["Abdi İpekçi Caddesi 18/3, Nişantaşı", "34367 Istanbul", "Türkiye"],
+      "tel": "+90 212 291 0044",
+      "fax": "+90 212 291 0055",
+      "email": "info@ikdmuhendislik.com",
+      "website": "www.ikdmuhendislik.com"
+    }
+  },
+  {
+    "name": "Studio Musto Acoustics",
+    "nameLocal": "Studio Musto",
+    "category": "Acoustics",
+    "specialty": { "en": "Room Acoustics & Noise Control", "tr": "Oda Akustiği & Gürültü Kontrolü" },
+    "since": 2018,
+    "region": "Europe",
+    "headOffice": {
+      "label": "Milan Office",
+      "lines": ["Via Tortona 37", "20144 Milan", "Italy"],
+      "tel": "+39 02 4948 1600",
+      "email": "studio@musto-acoustics.it",
+      "website": "www.musto-acoustics.it"
+    }
+  },
+  {
+    "name": "Karaca Construction",
+    "nameLocal": "Karaca İnşaat",
+    "category": "Construction",
+    "specialty": { "en": "General Contracting & Site Management", "tr": "Genel Yüklenici & Şantiye Yönetimi" },
+    "since": 2010,
+    "region": "Turkey",
+    "headOffice": {
+      "label": "Istanbul Office",
+      "lines": ["Atatürk Oto Sanayi Sitesi 552, Maslak", "34396 Istanbul", "Türkiye"],
+      "tel": "+90 212 328 8200",
+      "fax": "+90 212 328 8210",
+      "email": "info@karacainsaat.com",
+      "website": "www.karacainsaat.com"
+    }
+  },
+  {
+    "name": "Lombardia Restauri",
+    "nameLocal": "Lombardia Restauri S.r.l.",
+    "category": "Heritage Conservation",
+    "specialty": { "en": "Historic Structure Restoration", "tr": "Tarihi Yapı Restorasyonu" },
+    "since": 2015,
+    "region": "Europe",
+    "headOffice": {
+      "label": "Milan Office",
+      "lines": ["Via Giuseppe Mazzini 12", "20123 Milan", "Italy"],
+      "tel": "+39 02 8058 9400",
+      "email": "info@lombardiarestauri.it",
+      "website": "www.lombardiarestauri.it"
+    }
+  }
+]
