@@ -64,13 +64,13 @@ export const HeroParallax = ({
 };
 
 export const Header = ({ arrowOpacity }: { arrowOpacity?: MotionValue<number> }) => (
-  <div className="relative w-full space-y-10 md:space-y-36 bg-white flex flex-col justify-between px-6 md:px-16 pt-28 pb-8 md:pt-44 md:pb-16 min-h-0 md:min-h-[60vh]">
+  <div className="relative w-full md:space-y-24 space-y-36 bg-white flex flex-col justify-between px-6 md:px-16 pt-28 pb-8 md:pt-44 md:pb-16 min-h-0 md:min-h-[60vh]">
     <div className="relative">
       {/* Ghost logo watermark — mobile only */}
       <img
         src="/hero-logo.png"
         aria-hidden="true"
-        className="absolute -top-12 -right-2 h-[8rem] w-auto opacity-[0.07] pointer-events-none select-none"
+        className="absolute -top-10 left-4 h-[7.2rem] w-auto opacity-[0.07] pointer-events-none select-none"
       />
       <p className="relative font-mono-label text-black/60">
         Est. 2009 — Istanbul · Milan
