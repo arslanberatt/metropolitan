@@ -55,7 +55,7 @@ export default function Navbar() {
     <>
       <nav
         ref={navRef}
-        className={`fixed top-0 left-0 right-0 z-50 transition-[background-color,border-color,color,backdrop-filter] duration-[400ms] ${
+        className={`fixed top-0 left-0 right-0 z-50 transition-[background-color,border-color,color,backdrop-filter] [transition-duration:400ms] ${
           solid || menuOpen
             ? "bg-bone text-ink border-b border-ink/10"
             : "bg-transparent text-ink"
