@@ -28,8 +28,8 @@ export const HeroParallax = ({
 
   const springConfig = { stiffness: 80, damping: 30, bounce: 0 };
 
-  const translateX = useSpring(useTransform(scrollYProgress, [0, 1], [0, 1000]), springConfig);
-  const translateXReverse = useSpring(useTransform(scrollYProgress, [0, 1], [0, -1000]), springConfig);
+  const translateX = useTransform(scrollYProgress, [0, 1], [0, 1000]);
+  const translateXReverse = useTransform(scrollYProgress, [0, 1], [0, -1000]);
   const rotateX = useSpring(useTransform(scrollYProgress, [0, 0.2], [15, 0]), springConfig);
   const opacity = useSpring(useTransform(scrollYProgress, [0, 0.2], [0.2, 1]), springConfig);
   const rotateZ = useSpring(useTransform(scrollYProgress, [0, 0.2], [20, 0]), springConfig);
@@ -39,23 +39,34 @@ export const HeroParallax = ({
   return (
     <div
       ref={ref}
-      className="h-[280vh] overflow-hidden antialiased relative flex flex-col bg-white [perspective:1000px] [transform-style:preserve-3d]"
+      className="h-[280vh] overflow-hidden antialiased relative flex flex-col bg-white [perspective:1000px] [transform-style:preserve-3d] [content-visibility:auto] [contain-intrinsic-size:280vh]"
     >
       <Header arrowOpacity={arrowOpacity} />
-      <motion.div style={{ rotateX, rotateZ, translateY, opacity }}>
-        <motion.div className="flex flex-row-reverse space-x-reverse space-x-10 md:space-x-20 mb-10 md:mb-20">
+      <motion.div
+        style={{ rotateX, rotateZ, translateY, opacity, willChange: "transform, opacity" }}
+      >
+        <motion.div
+          style={{ x: translateX }}
+          className="flex flex-row-reverse space-x-reverse space-x-10 md:space-x-20 mb-10 md:mb-20"
+        >
           {firstRow.map((product) => (
-            <ProductCard product={product} translate={translateX} key={product.title} />
+            <ProductCard product={product} key={product.title} />
           ))}
         </motion.div>
-        <motion.div className="flex flex-row space-x-10 md:space-x-20 mb-10 md:mb-20">
+        <motion.div
+          style={{ x: translateXReverse }}
+          className="flex flex-row space-x-10 md:space-x-20 mb-10 md:mb-20"
+        >
           {secondRow.map((product) => (
-            <ProductCard product={product} translate={translateXReverse} key={product.title} />
+            <ProductCard product={product} key={product.title} />
           ))}
         </motion.div>
-        <motion.div className="flex flex-row-reverse space-x-reverse space-x-10 md:space-x-20">
+        <motion.div
+          style={{ x: translateX }}
+          className="flex flex-row-reverse space-x-reverse space-x-10 md:space-x-20"
+        >
           {thirdRow.map((product) => (
-            <ProductCard product={product} translate={translateX} key={product.title} />
+            <ProductCard product={product} key={product.title} />
           ))}
         </motion.div>
       </motion.div>
@@ -122,13 +133,10 @@ export const Header = ({ arrowOpacity }: { arrowOpacity?: MotionValue<number> })
 
 export const ProductCard = ({
   product,
-  translate,
 }: {
   product: { title: string; link: string; thumbnail: string };
-  translate: MotionValue<number>;
 }) => (
   <motion.div
-    style={{ x: translate }}
     whileHover={{ y: -12 }}
     key={product.title}
     className="group/product h-96 w-[13rem] md:h-96 md:w-[24rem] relative shrink-0"
@@ -136,6 +144,8 @@ export const ProductCard = ({
     <a href={product.link} className="block group-hover/product:shadow-xl">
       <img
         src={product.thumbnail}
+        srcSet={`${product.thumbnail.replace(".webp", "-sm.webp")} 800w, ${product.thumbnail} 1400w`}
+        sizes="(max-width: 768px) 13rem, 24rem"
         height="600"
         width="600"
         className="object-cover object-center absolute h-full w-full inset-0"
