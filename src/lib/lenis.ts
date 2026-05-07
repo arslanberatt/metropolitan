@@ -4,6 +4,7 @@ let lenisInstance: Lenis | null = null;
 export function initLenis(): Lenis | null {
   if (lenisInstance) return lenisInstance;
   if (typeof window === "undefined") return null;
+  if (window.matchMedia("(hover: none)").matches) return null;
   const lenis = new Lenis({ duration: 1.15, easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)), smoothWheel: true });
   lenis.on("scroll", ScrollTrigger.update);
   gsap.ticker.add((time) => lenis.raf(time * 1000));
