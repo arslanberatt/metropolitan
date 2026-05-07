@@ -3,6 +3,7 @@ import {
   motion,
   useScroll,
   useTransform,
+  useSpring,
   MotionValue,
 } from "framer-motion";
 import TrueFocus from "@/components/ui-extras/TrueFocus";
@@ -25,18 +26,20 @@ export const HeroParallax = ({
     offset: ["start start", "end start"],
   });
 
-  const translateX = useTransform(scrollYProgress, [0, 1], [0, 800]);
-  const translateXReverse = useTransform(scrollYProgress, [0, 1], [0, -800]);
-  const rotateX = useTransform(scrollYProgress, [0, 0.2], [15, 0]);
-  const opacity = useTransform(scrollYProgress, [0, 0.2], [0.2, 1]);
-  const rotateZ = useTransform(scrollYProgress, [0, 0.2], [20, 0]);
-  const translateY = useTransform(scrollYProgress, [0, 0.2], [-500, 300]);
+  const springConfig = { stiffness: 80, damping: 30, bounce: 0 };
+
+  const translateX = useSpring(useTransform(scrollYProgress, [0, 1], [0, 1000]), springConfig);
+  const translateXReverse = useSpring(useTransform(scrollYProgress, [0, 1], [0, -1000]), springConfig);
+  const rotateX = useSpring(useTransform(scrollYProgress, [0, 0.2], [15, 0]), springConfig);
+  const opacity = useSpring(useTransform(scrollYProgress, [0, 0.2], [0.2, 1]), springConfig);
+  const rotateZ = useSpring(useTransform(scrollYProgress, [0, 0.2], [20, 0]), springConfig);
+  const translateY = useSpring(useTransform(scrollYProgress, [0, 0.2], [-500, 300]), springConfig);
   const arrowOpacity = useTransform(scrollYProgress, [0, 0.08], [1, 0]);
 
   return (
     <div
       ref={ref}
-      className="h-[280vh] overflow-hidden antialiased relative flex flex-col bg-white"
+      className="h-[280vh] overflow-hidden antialiased relative flex flex-col bg-white [perspective:1000px] [transform-style:preserve-3d]"
     >
       <Header arrowOpacity={arrowOpacity} />
       <motion.div style={{ rotateX, rotateZ, translateY, opacity }}>
@@ -125,9 +128,10 @@ export const ProductCard = ({
   translate: MotionValue<number>;
 }) => (
   <motion.div
-    style={{ x: translate, willChange: "transform" }}
+    style={{ x: translate }}
+    whileHover={{ y: -12 }}
     key={product.title}
-    className="group/product h-96 w-[13rem] md:h-96 md:w-[24rem] relative shrink-0 transition-transform duration-300 hover:-translate-y-3"
+    className="group/product h-96 w-[13rem] md:h-96 md:w-[24rem] relative shrink-0"
   >
     <a href={product.link} className="block group-hover/product:shadow-xl">
       <img
