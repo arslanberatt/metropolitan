@@ -97,7 +97,7 @@ export const HeroParallax = ({
 };
 
 export const Header = ({ arrowOpacity }: { arrowOpacity?: MotionValue<number> }) => (
-  <div className="relative w-full space-y-36 bg-white flex flex-col justify-between px-6 md:px-16 pt-40 pb-10 md:pt-44 md:pb-16 min-h-[50vh] md:min-h-[60vh]">
+  <div className="relative w-full space-y-10 md:space-y-36 bg-white flex flex-col justify-between px-6 md:px-16 pt-28 pb-8 md:pt-44 md:pb-16 min-h-0 md:min-h-[60vh]">
     <div className="relative">
       {/* Ghost logo watermark — mobile only */}
       <img
