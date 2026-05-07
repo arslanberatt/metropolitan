@@ -28,9 +28,9 @@ export default function Index() {
 
   return (
     <div ref={rootRef}>
-      {/* <Hero /> */}
-      <Pillars />
-      <ReverseColumns />
+      <Hero />
+      {/* <Pillars /> */}
+      {/* <ReverseColumns /> */}
       <SelectedWorks />
       <ImageWall />
       <Philosophy />
