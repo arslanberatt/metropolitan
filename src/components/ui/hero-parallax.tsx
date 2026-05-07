@@ -59,8 +59,8 @@ export const HeroParallax = ({
                 src={product.thumbnail}
                 alt={product.title}
                 className="w-full h-full object-cover"
-                loading="lazy"
-                decoding="async"
+                loading="eager"
+                decoding="auto"
               />
             </a>
           ))}
