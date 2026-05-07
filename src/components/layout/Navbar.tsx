@@ -8,6 +8,7 @@ const LINKS = (t: (k: string) => string) =>
   [
     ["/", t("nav.home")],
     ["/portfolio", t("nav.portfolio")],
+    ["/blog", t("nav.blog")],
     ["/services", t("nav.services")],
     ["/partners", t("nav.partners")],
     ["/contact", t("nav.contact")],
@@ -54,10 +55,11 @@ export default function Navbar() {
     <>
       <nav
         ref={navRef}
-        className={`fixed top-0 left-0 right-0 z-50 transition-[background-color,border-color,color] duration-[400ms] ${
-          solid || menuOpen ? "bg-bone text-ink" : "bg-transparent text-bone"
+        className={`fixed top-0 left-0 right-0 z-50 transition-[background-color,border-color,color,backdrop-filter] duration-[400ms] ${
+          solid || menuOpen
+            ? "bg-bone text-ink border-b border-ink/10"
+            : "bg-transparent text-ink"
         }`}
-        style={{ borderBottom: solid && !menuOpen ? "0.5px solid hsl(var(--ink) / 0.1)" : "none" }}
       >
         <div className="flex items-center justify-between px-6 md:px-10 h-16">
           <Link to="/" aria-label="Metropolitan" className="relative z-10 rounded p-1 bg-black/10">

@@ -38,7 +38,10 @@ export default function Footer() {
         style={{ borderTop: "0.5px solid hsl(var(--bone) / 0.1)" }}
       >
         <div className="max-w-screen-2xl mx-auto flex flex-col md:flex-row md:items-center justify-between gap-4">
-          <div>© {new Date().getFullYear()} Metropolitan Architects · {t("footer.rights")}</div>
+          <div className="flex items-center gap-4">
+            <img src="/hero-logo.png" alt="Metropolitan Architects" className="h-8 opacity-60" />
+            <span>© {new Date().getFullYear()} Metropolitan Architects · {t("footer.rights")}</span>
+          </div>
           <div className="flex flex-wrap items-center gap-x-6 gap-y-2">
             {studio.socials.map((s) => (
               <a

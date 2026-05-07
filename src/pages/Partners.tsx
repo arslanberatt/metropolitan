@@ -188,17 +188,6 @@ export default function Partners() {
         </AnimatePresence>
       </section>
 
-      {/* Disciplines legend */}
-      <section className="px-6 md:px-10 py-16 hairline-t max-w-screen-2xl mx-auto">
-        <div className="font-mono-label text-ink/40 text-[10px] tracking-widest uppercase mb-6">Disciplines</div>
-        <div className="flex flex-wrap gap-2">
-          {Object.entries(CATEGORY_COLORS).map(([cat, cls]) => (
-            <span key={cat} className={`inline-flex items-center px-2.5 py-1 text-[10px] font-mono-label tracking-wide rounded-sm ${cls}`}>
-              {cat}
-            </span>
-          ))}
-        </div>
-      </section>
     </div>
   );
 }
