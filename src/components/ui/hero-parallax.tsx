@@ -26,7 +26,7 @@ export const HeroParallax = ({
     offset: ["start start", "end start"],
   });
 
-  const springConfig = { stiffness: 300, damping: 30, bounce: 100 };
+  const springConfig = { stiffness: 80, damping: 30, bounce: 0 };
 
   const translateX = useSpring(useTransform(scrollYProgress, [0, 1], [0, 1000]), springConfig);
   const translateXReverse = useSpring(useTransform(scrollYProgress, [0, 1], [0, -1000]), springConfig);
@@ -140,6 +140,8 @@ export const ProductCard = ({
         width="600"
         className="object-cover object-center absolute h-full w-full inset-0"
         alt={product.title}
+        loading="lazy"
+        decoding="async"
       />
     </a>
     <div className="absolute inset-0 h-full w-full opacity-0 group-hover/product:opacity-70 bg-black pointer-events-none transition-opacity duration-300" />
