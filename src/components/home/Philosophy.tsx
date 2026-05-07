@@ -35,7 +35,6 @@ export default function Philosophy() {
     <section ref={sectionRef} className="bg-bone py-32 px-6 md:px-10 hairline-t">
       <div className="grid grid-cols-1 md:grid-cols-5 gap-12 max-w-screen-2xl mx-auto">
         <div className="md:col-span-3">
-          <div className="font-mono-label text-ink/60 mb-8">{t("common.section")} — 07</div>
           <div className="font-display-italic text-3xl md:text-5xl leading-[1.6] max-w-[18ch] text-ink">
             {sentences.map((s, i) => (
               <span key={i} className="phil-sentence block mb-4">{s}</span>

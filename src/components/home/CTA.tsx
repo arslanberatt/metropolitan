@@ -8,7 +8,6 @@ export default function CTA() {
   return (
     <section className="bg-ash text-bone">
       <div className="min-h-screen flex flex-col justify-between px-6 md:px-10 py-20">
-        <div className="font-mono-label opacity-70">{t("common.section")} — 10</div>
         <h2 className="font-display text-[12vw] md:text-[10vw] leading-[0.95] max-w-[18ch]">
           <RevealWords text={t("cta.headline")} stagger={0.06} />
         </h2>
