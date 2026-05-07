@@ -1,21 +1,21 @@
 import { HeroParallax } from "@/components/ui/hero-parallax";
 
 const products = [
-  { title: "Kadıköy House",        link: "/portfolio/kadikoy-house",        thumbnail: "/1.png" },
-  { title: "Brera Atelier",        link: "/portfolio/brera-atelier",        thumbnail: "/2.png" },
-  { title: "Bebek Pavilion",       link: "/portfolio/bebek-pavilion",       thumbnail: "/3.png" },
-  { title: "Como Villa",           link: "/portfolio/como-villa",           thumbnail: "/4.png" },
-  { title: "Arnavutköy Warehouse", link: "/portfolio/arnavutkoy-warehouse", thumbnail: "/5.png" },
-  { title: "Cihangir Apartment",   link: "/portfolio/cihangir-apartment",   thumbnail: "/6.png" },
-  { title: "Sarıyer Pavilion",     link: "/portfolio/sariyer-pavilion",     thumbnail: "/7.png" },
-  { title: "Beyoğlu Bookshop",     link: "/portfolio/beyoglu-bookshop",     thumbnail: "/1.png" },
-  { title: "Maggiore Boathouse",   link: "/portfolio/maggiore-boathouse",   thumbnail: "/2.png" },
-  { title: "Milano Loft",          link: "/portfolio/milano-loft",          thumbnail: "/3.png" },
-  { title: "Kadıköy School",       link: "/portfolio/kadikoy-school",       thumbnail: "/4.png" },
-  { title: "Bosphorus Bath",       link: "/portfolio/bosphorus-bath",       thumbnail: "/5.png" },
-  { title: "Kadıköy House",        link: "/portfolio/kadikoy-house",        thumbnail: "/6.png" },
-  { title: "Brera Atelier",        link: "/portfolio/brera-atelier",        thumbnail: "/7.png" },
-  { title: "Como Villa",           link: "/portfolio/como-villa",           thumbnail: "/1.png" },
+  { title: "Kadıköy House",        link: "/portfolio/kadikoy-house",        thumbnail: "/1.webp" },
+  { title: "Brera Atelier",        link: "/portfolio/brera-atelier",        thumbnail: "/2.webp" },
+  { title: "Bebek Pavilion",       link: "/portfolio/bebek-pavilion",       thumbnail: "/3.webp" },
+  { title: "Como Villa",           link: "/portfolio/como-villa",           thumbnail: "/4.webp" },
+  { title: "Arnavutköy Warehouse", link: "/portfolio/arnavutkoy-warehouse", thumbnail: "/5.webp" },
+  { title: "Cihangir Apartment",   link: "/portfolio/cihangir-apartment",   thumbnail: "/6.webp" },
+  { title: "Sarıyer Pavilion",     link: "/portfolio/sariyer-pavilion",     thumbnail: "/7.webp" },
+  { title: "Beyoğlu Bookshop",     link: "/portfolio/beyoglu-bookshop",     thumbnail: "/1.webp" },
+  { title: "Maggiore Boathouse",   link: "/portfolio/maggiore-boathouse",   thumbnail: "/2.webp" },
+  { title: "Milano Loft",          link: "/portfolio/milano-loft",          thumbnail: "/3.webp" },
+  { title: "Kadıköy School",       link: "/portfolio/kadikoy-school",       thumbnail: "/4.webp" },
+  { title: "Bosphorus Bath",       link: "/portfolio/bosphorus-bath",       thumbnail: "/5.webp" },
+  { title: "Kadıköy House",        link: "/portfolio/kadikoy-house",        thumbnail: "/6.webp" },
+  { title: "Brera Atelier",        link: "/portfolio/brera-atelier",        thumbnail: "/7.webp" },
+  { title: "Como Villa",           link: "/portfolio/como-villa",           thumbnail: "/1.webp" },
 ];
 
 export default function Hero2() {
