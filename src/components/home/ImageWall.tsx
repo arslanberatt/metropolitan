@@ -1,8 +1,8 @@
 import LazyImage from "@/components/ui-extras/LazyImage";
 const ROWS = [
-  ["/1.png", "/2.png", "/logo.png", "/3.png", "/4.png", "/5.png"],
-  ["/6.png", "/7.png", "/1.png", "/2.png","/logo.png", "/3.png"],
-  ["/4.png", "/5.png", "/6.png", "/7.png", "/logo.png", "/1.png"],
+  ["/1.webp", "/2.webp", "/logo.png", "/3.webp", "/4.webp", "/5.webp"],
+  ["/6.webp", "/7.webp", "/1.webp", "/2.webp","/logo.png", "/3.webp"],
+  ["/4.webp", "/5.webp", "/6.webp", "/7.webp", "/logo.png", "/1.webp"],
 ];
 function Row({ srcs, reverse }: { srcs: string[]; reverse?: boolean }) {
   const items = [...srcs, ...srcs];

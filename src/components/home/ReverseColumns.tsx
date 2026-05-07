@@ -4,9 +4,9 @@ import { useLang } from "@/lib/useLang";
 import LazyImage from "@/components/ui-extras/LazyImage";
 
 const COL = [
-  ["/1.png", "/2.png", "/3.png", "/4.png"],
-  ["/5.png", "/6.png", "/7.png", "/1.png"],
-  ["/2.png", "/3.png", "/4.png", "/5.png"],
+  ["/1.webp", "/2.webp", "/3.webp", "/4.webp"],
+  ["/5.webp", "/6.webp", "/7.webp", "/1.webp"],
+  ["/2.webp", "/3.webp", "/4.webp", "/5.webp"],
 ];
 
 function Column({ srcs, speed }: { srcs: string[]; speed: number }) {
