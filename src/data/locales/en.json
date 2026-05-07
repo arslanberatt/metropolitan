@@ -1,1 +1,121 @@
-{"nav":{"home":"Home","portfolio":"Portfolio","services":"Services","partners":"Partners","about":"About","contact":"Contact"},"hero":{"label":"Est. 2009 — Istanbul · Milan","scroll":"Scroll","tagline":"Spaces that hold time."},"common":{"learnMore":"Learn more","viewProject":"View project","all":"All","discuss":"Discuss a project","openMaps":"Open in Maps","selectedWorks":"Selected works — 2024","section":"Section"},"pillars":{"title1":"Material","body1":"We build with what the site asks for. Stone, timber, lime, brass — left to age in their own way.","title2":"Permanence","body2":"What we make should outlive us. We design for the long quiet life of a building, not the short loud life of an image.","title3":"Quiet","body3":"The best architecture disappears into daily life. We work toward rooms that are forgotten the moment they are entered."},"philosophy":{"body":"We are a small workshop of architects, designers, and gardeners. We work slowly, draw constantly, and believe that a building is a long sentence written into a place. Each room is a clause. Each window, a held breath.","items":["Material honesty","Quiet permanence","Site as protagonist","Light as material"]},"stats":"Twelve years. Forty-three projects. One philosophy.","cta":{"headline":"Have a site? Let's listen to it.","button":"Begin a conversation"},"portfolio":{"title":"Portfolio","intro":"A working archive of buildings, interiors, and gardens.","filters":["All","Residential","Cultural","Commercial","Adaptive Reuse","Landscape"]},"services":{"title":"Services","intro":"Five disciplines · One workshop","process":"The process","steps":["Discover","Design","Develop","Deliver"],"deliverables":"Deliverables"},"partners":{"title":"Eight people. One workshop.","intro":"Metropolitan is held together by a small group of architects and designers who share a single table and two cities.","collaborators":"Collaborators","led":"Led projects","education":"Education"},"contact":{"title":"Tell us about your site.","intro":"We answer every message — usually within 48 hours.","form":{"name":"Name","email":"Email","type":"Project type","message":"Tell us about the site","budget":"Budget range (optional)","submit":"Send message","sending":"Sending…","thanks":"Message received. We'll respond within 48 hours.","types":["Residential","Cultural","Commercial","Adaptive Reuse","Landscape","Consultancy"]},"hours":"Studio hours"},"project":{"client":"Client","year":"Year","location":"Location","area":"Area","status":"Status","architect":"Architect","photographer":"Photographer","next":"Next project","prev":"Previous project","completed":"Completed"},"footer":{"rights":"All rights reserved."},"notfound":{"title":"404","body":"This page is still being drawn.","home":"Return home"}}
+{
+  "nav": {
+    "home": "Home",
+    "portfolio": "Portfolio",
+    "services": "Services",
+    "partners": "Partners",
+    "about": "About",
+    "contact": "Contact",
+    "blog": "Journal"
+  },
+  "hero": {
+    "label": "Est. 2009 — Istanbul · Milan",
+    "scroll": "Scroll",
+    "tagline": "Spaces that hold time."
+  },
+  "common": {
+    "learnMore": "Learn more",
+    "viewProject": "View project",
+    "all": "All",
+    "discuss": "Discuss a project",
+    "openMaps": "Open in Maps",
+    "selectedWorks": "Selected works — 2024",
+    "section": "Section"
+  },
+  "pillars": {
+    "title1": "Material",
+    "body1": "We build with what the site asks for. Stone, timber, lime, brass — left to age in their own way.",
+    "title2": "Permanence",
+    "body2": "What we make should outlive us. We design for the long quiet life of a building, not the short loud life of an image.",
+    "title3": "Quiet",
+    "body3": "The best architecture disappears into daily life. We work toward rooms that are forgotten the moment they are entered."
+  },
+  "philosophy": {
+    "body": "We are a small workshop of architects, designers, and gardeners. We work slowly, draw constantly, and believe that a building is a long sentence written into a place. Each room is a clause. Each window, a held breath.",
+    "items": [
+      "Material honesty",
+      "Quiet permanence",
+      "Site as protagonist",
+      "Light as material"
+    ]
+  },
+  "stats": "Twelve years. Forty-three projects. One philosophy.",
+  "cta": {
+    "headline": "Have a site? Let's listen to it.",
+    "button": "Begin a conversation"
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "intro": "A working archive of buildings, interiors, and gardens.",
+    "filters": [
+      "All",
+      "Residential",
+      "Cultural",
+      "Commercial",
+      "Adaptive Reuse",
+      "Landscape"
+    ]
+  },
+  "services": {
+    "title": "Services",
+    "intro": "Five disciplines · One workshop",
+    "process": "The process",
+    "steps": [
+      "Discover",
+      "Design",
+      "Develop",
+      "Deliver"
+    ],
+    "deliverables": "Deliverables"
+  },
+  "partners": {
+    "title": "Eight people. One workshop.",
+    "intro": "Metropolitan is held together by a small group of architects and designers who share a single table and two cities.",
+    "collaborators": "Collaborators",
+    "led": "Led projects",
+    "education": "Education"
+  },
+  "contact": {
+    "title": "Tell us about your site.",
+    "intro": "We answer every message — usually within 48 hours.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "type": "Project type",
+      "message": "Tell us about the site",
+      "budget": "Budget range (optional)",
+      "submit": "Send message",
+      "sending": "Sending…",
+      "thanks": "Message received. We'll respond within 48 hours.",
+      "types": [
+        "Residential",
+        "Cultural",
+        "Commercial",
+        "Adaptive Reuse",
+        "Landscape",
+        "Consultancy"
+      ]
+    },
+    "hours": "Studio hours"
+  },
+  "project": {
+    "client": "Client",
+    "year": "Year",
+    "location": "Location",
+    "area": "Area",
+    "status": "Status",
+    "architect": "Architect",
+    "photographer": "Photographer",
+    "next": "Next project",
+    "prev": "Previous project",
+    "completed": "Completed"
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  },
+  "notfound": {
+    "title": "404",
+    "body": "This page is still being drawn.",
+    "home": "Return home"
+  }
+}

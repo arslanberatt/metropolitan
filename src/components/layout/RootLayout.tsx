@@ -1,7 +1,7 @@
 import { useEffect, useLayoutEffect } from "react";
 import { Outlet, useLocation } from "react-router-dom";
 import Navbar from "./Navbar";
-import Footer from "./Footer";
+import { Footer7 } from "@/components/ui/footer-7";
 import ScrollProgress from "./ScrollProgress";
 import PageTransition from "./PageTransition";
 import { initLenis, getLenis } from "@/lib/lenis";
@@ -42,7 +42,7 @@ export default function RootLayout() {
       <main>
         <Outlet />
       </main>
-      <Footer />
+      <Footer7 />
       <PageTransition />
     </>
   );

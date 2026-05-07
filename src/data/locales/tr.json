@@ -1,1 +1,121 @@
-{"nav":{"home":"Anasayfa","portfolio":"Portföy","services":"Hizmetler","partners":"Ortaklar","about":"Hakkımızda","contact":"İletişim"},"hero":{"label":"Kuruluş 2009 — İstanbul · Milano","scroll":"Kaydır","tagline":"Zamanı tutan mekânlar."},"common":{"learnMore":"Devamını oku","viewProject":"Projeyi gör","all":"Tümü","discuss":"Proje konuşalım","openMaps":"Haritada aç","selectedWorks":"Seçilmiş işler — 2024","section":"Bölüm"},"pillars":{"title1":"Malzeme","body1":"Sahanın istediği şeyle inşa ediyoruz. Taş, ahşap, kireç, pirinç — kendi hallerinde yaşlansınlar diye.","title2":"Kalıcılık","body2":"Yaptığımız şey bizden uzun yaşamalı. Bir binanın uzun ve sessiz hayatı için tasarlıyoruz.","title3":"Sessizlik","body3":"En iyi mimari günlük hayatın içinde kaybolur. Girildiği an unutulan odalara doğru çalışıyoruz."},"philosophy":{"body":"Mimarlardan, tasarımcılardan ve bahçıvanlardan oluşan küçük bir atölyeyiz. Yavaş çalışıyor, sürekli çiziyor ve bir binanın bir yere yazılmış uzun bir cümle olduğuna inanıyoruz. Her oda bir alt cümle. Her pencere, tutulmuş bir nefes.","items":["Malzeme dürüstlüğü","Sessiz kalıcılık","Başrolde saha","Malzeme olarak ışık"]},"stats":"On iki yıl. Kırk üç proje. Tek bir felsefe.","cta":{"headline":"Bir saha mı var? Onu birlikte dinleyelim.","button":"Bir konuşma başlat"},"portfolio":{"title":"Portföy","intro":"Binaların, iç mekanların ve bahçelerin çalışan bir arşivi.","filters":["Tümü","Konut","Kültürel","Ticari","Yeniden Kullanım","Peyzaj"]},"services":{"title":"Hizmetler","intro":"Beş disiplin · Tek bir atölye","process":"Süreç","steps":["Keşfet","Tasarla","Geliştir","Teslim Et"],"deliverables":"Teslimatlar"},"partners":{"title":"Sekiz kişi. Tek bir atölye.","intro":"Metropolitan, küçük bir mimar ve tasarımcı grubunu bir araya getiriyor.","collaborators":"İşbirlikçiler","led":"Yönettiği projeler","education":"Eğitim"},"contact":{"title":"Bize sahanızdan bahsedin.","intro":"Her mesaja yanıt veriyoruz — genellikle 48 saat içinde.","form":{"name":"Ad","email":"E-posta","type":"Proje türü","message":"Sahadan bahsedin","budget":"Bütçe aralığı (isteğe bağlı)","submit":"Mesaj gönder","sending":"Gönderiliyor…","thanks":"Mesajınız alındı. 48 saat içinde yanıt vereceğiz.","types":["Konut","Kültürel","Ticari","Yeniden Kullanım","Peyzaj","Danışmanlık"]},"hours":"Stüdyo saatleri"},"project":{"client":"Müşteri","year":"Yıl","location":"Konum","area":"Alan","status":"Durum","architect":"Mimar","photographer":"Fotoğrafçı","next":"Sonraki proje","prev":"Önceki proje","completed":"Tamamlandı"},"footer":{"rights":"Tüm hakları saklıdır."},"notfound":{"title":"404","body":"Bu sayfa hâlâ çiziliyor.","home":"Ana sayfaya dön"}}
+{
+  "nav": {
+    "home": "Anasayfa",
+    "portfolio": "Portföy",
+    "services": "Hizmetler",
+    "partners": "Ortaklar",
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "blog": "Dergi"
+  },
+  "hero": {
+    "label": "Kuruluş 2009 — İstanbul · Milano",
+    "scroll": "Kaydır",
+    "tagline": "Zamanı tutan mekânlar."
+  },
+  "common": {
+    "learnMore": "Devamını oku",
+    "viewProject": "Projeyi gör",
+    "all": "Tümü",
+    "discuss": "Proje konuşalım",
+    "openMaps": "Haritada aç",
+    "selectedWorks": "Seçilmiş işler — 2024",
+    "section": "Bölüm"
+  },
+  "pillars": {
+    "title1": "Malzeme",
+    "body1": "Sahanın istediği şeyle inşa ediyoruz. Taş, ahşap, kireç, pirinç — kendi hallerinde yaşlansınlar diye.",
+    "title2": "Kalıcılık",
+    "body2": "Yaptığımız şey bizden uzun yaşamalı. Bir binanın uzun ve sessiz hayatı için tasarlıyoruz.",
+    "title3": "Sessizlik",
+    "body3": "En iyi mimari günlük hayatın içinde kaybolur. Girildiği an unutulan odalara doğru çalışıyoruz."
+  },
+  "philosophy": {
+    "body": "Mimarlardan, tasarımcılardan ve bahçıvanlardan oluşan küçük bir atölyeyiz. Yavaş çalışıyor, sürekli çiziyor ve bir binanın bir yere yazılmış uzun bir cümle olduğuna inanıyoruz. Her oda bir alt cümle. Her pencere, tutulmuş bir nefes.",
+    "items": [
+      "Malzeme dürüstlüğü",
+      "Sessiz kalıcılık",
+      "Başrolde saha",
+      "Malzeme olarak ışık"
+    ]
+  },
+  "stats": "On iki yıl. Kırk üç proje. Tek bir felsefe.",
+  "cta": {
+    "headline": "Bir saha mı var? Onu birlikte dinleyelim.",
+    "button": "Bir konuşma başlat"
+  },
+  "portfolio": {
+    "title": "Portföy",
+    "intro": "Binaların, iç mekanların ve bahçelerin çalışan bir arşivi.",
+    "filters": [
+      "Tümü",
+      "Konut",
+      "Kültürel",
+      "Ticari",
+      "Yeniden Kullanım",
+      "Peyzaj"
+    ]
+  },
+  "services": {
+    "title": "Hizmetler",
+    "intro": "Beş disiplin · Tek bir atölye",
+    "process": "Süreç",
+    "steps": [
+      "Keşfet",
+      "Tasarla",
+      "Geliştir",
+      "Teslim Et"
+    ],
+    "deliverables": "Teslimatlar"
+  },
+  "partners": {
+    "title": "Sekiz kişi. Tek bir atölye.",
+    "intro": "Metropolitan, küçük bir mimar ve tasarımcı grubunu bir araya getiriyor.",
+    "collaborators": "İşbirlikçiler",
+    "led": "Yönettiği projeler",
+    "education": "Eğitim"
+  },
+  "contact": {
+    "title": "Bize sahanızdan bahsedin.",
+    "intro": "Her mesaja yanıt veriyoruz — genellikle 48 saat içinde.",
+    "form": {
+      "name": "Ad",
+      "email": "E-posta",
+      "type": "Proje türü",
+      "message": "Sahadan bahsedin",
+      "budget": "Bütçe aralığı (isteğe bağlı)",
+      "submit": "Mesaj gönder",
+      "sending": "Gönderiliyor…",
+      "thanks": "Mesajınız alındı. 48 saat içinde yanıt vereceğiz.",
+      "types": [
+        "Konut",
+        "Kültürel",
+        "Ticari",
+        "Yeniden Kullanım",
+        "Peyzaj",
+        "Danışmanlık"
+      ]
+    },
+    "hours": "Stüdyo saatleri"
+  },
+  "project": {
+    "client": "Müşteri",
+    "year": "Yıl",
+    "location": "Konum",
+    "area": "Alan",
+    "status": "Durum",
+    "architect": "Mimar",
+    "photographer": "Fotoğrafçı",
+    "next": "Sonraki proje",
+    "prev": "Önceki proje",
+    "completed": "Tamamlandı"
+  },
+  "footer": {
+    "rights": "Tüm hakları saklıdır."
+  },
+  "notfound": {
+    "title": "404",
+    "body": "Bu sayfa hâlâ çiziliyor.",
+    "home": "Ana sayfaya dön"
+  }
+}

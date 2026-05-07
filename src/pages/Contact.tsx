@@ -75,17 +75,7 @@ export default function Contact() {
         </div>
       </section>
 
-      <section className="px-6 md:px-10 py-20 hairline-t">
-        <svg viewBox="0 0 1000 300" className="w-full max-w-3xl mx-auto" stroke="currentColor" fill="none">
-          <path d="M150 150 Q 200 100 280 130 T 380 160 L 350 200 L 280 220 L 200 200 Z" className="text-ink/30" strokeWidth="1.5" />
-          <path d="M620 130 Q 680 100 740 110 L 770 150 L 750 190 L 680 200 L 620 170 Z" className="text-ink/30" strokeWidth="1.5" />
-          <path d="M280 160 Q 450 60 700 150" className="text-clay" strokeWidth="1" strokeDasharray="4 4" />
-          <circle cx="280" cy="160" r="6" fill="hsl(var(--clay))" />
-          <circle cx="700" cy="150" r="6" fill="hsl(var(--clay))" />
-          <text x="280" y="245" textAnchor="middle" className="fill-ink font-mono text-[12px]">ISTANBUL</text>
-          <text x="700" y="245" textAnchor="middle" className="fill-ink font-mono text-[12px]">MILANO</text>
-        </svg>
-      </section>
+      
     </div>
   );
 }

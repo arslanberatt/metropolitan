@@ -116,7 +116,7 @@ export default function Hero() {
           28%          { transform: translate(-50%,-7px); }
         }
         .focus-word {
-          font-family: 'Montserrat', sans-serif;
+          font-family: 'Outfit', sans-serif;
           font-size: clamp(0.85rem, 1.6vw, 1.4rem);
           font-weight: 500;
           color: rgba(255,255,255,0.55);

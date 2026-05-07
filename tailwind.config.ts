@@ -65,8 +65,8 @@ export default {
         },
       },
       fontFamily: {
-        display: ['Fraunces', 'Times New Roman', 'serif'],
-        body: ['"Inter Tight"', 'system-ui', 'sans-serif'],
+        display: ['Outfit', 'system-ui', 'sans-serif'],
+        body: ['Outfit', 'system-ui', 'sans-serif'],
         mono: ['"JetBrains Mono"', 'ui-monospace', 'monospace'],
       },
       borderRadius: {
