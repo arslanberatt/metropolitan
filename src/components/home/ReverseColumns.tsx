@@ -57,6 +57,7 @@ export default function ReverseColumns() {
         <Column srcs={COL[2]} speed={0.6} />
         <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
           <div className="bg-bone/85 backdrop-blur-sm px-8 py-10 hairline max-w-2xl text-center">
+            {/* <div className="font-mono-label text-ink/60 mb-4">{t("common.section")} — 04</div> */}
             <p className="font-display text-3xl md:text-5xl text-ink leading-tight">{t("stats")}</p>
           </div>
         </div>

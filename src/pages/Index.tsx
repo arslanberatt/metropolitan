@@ -1,5 +1,6 @@
 import { useLayoutEffect, useRef } from "react";
 import { ScrollTrigger } from "@/lib/gsap";
+import Hero from "@/components/home/Hero";
 import Pillars from "@/components/home/Pillars";
 import ReverseColumns from "@/components/home/ReverseColumns";
 import SelectedWorks from "@/components/home/SelectedWorks";
@@ -27,6 +28,7 @@ export default function Index() {
 
   return (
     <div ref={rootRef}>
+      {/* <Hero /> */}
       <Pillars />
       <ReverseColumns />
       <SelectedWorks />
