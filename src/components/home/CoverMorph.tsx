@@ -34,7 +34,7 @@ export default function CoverMorph() {
           className="relative overflow-hidden mx-auto"
           style={{ width: "70%", height: "70vh", borderRadius: "24px" }}
         >
-          <img src="/3.png" alt="" className="w-full h-full object-cover" />
+          <img src="/3.webp" alt="" className="w-full h-full object-cover" />
         </div>
       </div>
     </section>
