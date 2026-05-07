@@ -14,7 +14,7 @@ const logos = [
 
 export default function LogosSlider() {
   return (
-    <div className="relative h-56 mt-36 w-full overflow-hidden bg-white">
+    <div className="relative md:h-56 mt-0 md:mt-36 w-full overflow-hidden bg-white">
       <InfiniteSlider
         className="flex h-full w-full items-center"
         duration={40}
