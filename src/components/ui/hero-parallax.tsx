@@ -8,6 +8,17 @@ import {
 } from "framer-motion";
 import TrueFocus from "@/components/ui-extras/TrueFocus";
 
+function useIsMobile() {
+  const [isMobile, setIsMobile] = React.useState(() => window.innerWidth < 768);
+  React.useEffect(() => {
+    const mq = window.matchMedia("(max-width: 767px)");
+    const handler = (e: MediaQueryListEvent) => setIsMobile(e.matches);
+    mq.addEventListener("change", handler);
+    return () => mq.removeEventListener("change", handler);
+  }, []);
+  return isMobile;
+}
+
 export const HeroParallax = ({
   products,
 }: {
@@ -17,6 +28,7 @@ export const HeroParallax = ({
     thumbnail: string;
   }[];
 }) => {
+  const isMobile = useIsMobile();
   const firstRow = products.slice(0, 5);
   const secondRow = products.slice(5, 10);
   const thirdRow = products.slice(10, 15);
@@ -35,6 +47,27 @@ export const HeroParallax = ({
   const rotateZ = useSpring(useTransform(scrollYProgress, [0, 0.2], [20, 0]), springConfig);
   const translateY = useSpring(useTransform(scrollYProgress, [0, 0.2], [-500, 300]), springConfig);
   const arrowOpacity = useTransform(scrollYProgress, [0, 0.08], [1, 0]);
+
+  if (isMobile) {
+    return (
+      <div className="bg-white">
+        <Header arrowOpacity={arrowOpacity} />
+        <div className="grid grid-cols-2 gap-3 px-4 pb-16">
+          {products.slice(0, 6).map((product) => (
+            <a key={product.title} href={product.link} className="block aspect-[3/4] overflow-hidden">
+              <img
+                src={product.thumbnail}
+                alt={product.title}
+                className="w-full h-full object-cover"
+                loading="lazy"
+                decoding="async"
+              />
+            </a>
+          ))}
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div
